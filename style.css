@@ -1,0 +1,242 @@
+body,
+html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    height: 50px;
+    width: 400px;
+    margin-left: 550px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+p3 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+p {
+    font-weight: 500;
+}
+
+span1 {
+    color: rgb(180, 176, 176);
+}
+
+.container {
+    margin-top: -60px;
+}
+
+.team {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-top: 250px;
+    box-shadow: 0px 0px 10px #777373, 0px 0px 5px #858585;
+}
+
+.team1 {
+    height: 5px;
+    width: 300px;
+    background-color: hsl(0, 78%, 62%);
+    border-radius: 10px;
+
+}
+
+p1 {
+    font-weight: 650;
+    font-size: 1.5em;
+    margin-left: 15px;
+    line-height: 50px;
+    color: rgb(74, 72, 72);
+}
+
+p2 {
+    font-weight: 500;
+    font-size: 0.9em;
+    color: rgb(159, 151, 151);
+    margin-left: 15px;
+
+}
+
+span {
+    margin-left: 15px;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+.karma {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 600px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px #777373, 0px 0px 5px #858585;
+}
+
+.karma1 {
+    height: 5px;
+    width: 300px;
+    background-color: hsl(34, 97%, 64%);
+    border-radius: 10px;
+
+}
+
+.calculator {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 230px;
+    margin-top: -300px;
+    float: right;
+    box-shadow: 0px 0px 10px #777373, 0px 0px 5px #858585;
+}
+
+.calculator1 {
+    height: 5px;
+    width: 300px;
+    background-color: hsl(212, 86%, 64%);
+    border-radius: 10px;
+
+}
+
+.supervisor {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 270px;
+    margin-top: -300px;
+    float: left;
+    box-shadow: 0px 0px 10px #777373, 0px 0px 5px #858585;
+}
+
+.supervisor1 {
+    height: 5px;
+    width: 300px;
+    background-color: hsl(180, 62%, 55%);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:375px) {
+
+    .text {
+        position: absolute;
+        top: 30px;
+        left: -540px;
+        font-size: 1.7em;
+        width: 800px;
+    }
+
+    span1 {
+        position: relative;
+        display: inline-block;
+        width: 550px;
+        top: 40px;
+        letter-spacing: 2;
+        line-height: 1.5;
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+
+    .supervisor {
+        position: absolute;
+        top: 800px;
+        left: -150px;
+        width: 600px;
+        height: 400px;
+    }
+
+    .supervisor1 {
+        width: 600px;
+    }
+
+    p1 {
+        position: absolute;
+        font-size: 3em;
+        top: 40px;
+        left: 50px;
+    }
+
+    p2 {
+        position: relative;
+        top: 100px;
+        left: 55px;
+        font-size: 25px;
+
+
+    }
+
+    .team {
+        position: absolute;
+        top: 700px;
+        left: -477px;
+        width: 600px;
+        height: 400px;
+
+    }
+
+    .team1 {
+        width: 600px;
+    }
+
+    .karma {
+        position: absolute;
+        top: 1380px;
+        left: -474px;
+        width: 600px;
+        height: 400px;
+    }
+
+    .karma1 {
+        width: 600px;
+    }
+
+    .calculator {
+        position: absolute;
+        top: 2170px;
+        left: 125px;
+        width: 600px;
+        height: 400px;
+    }
+
+    .calculator1 {
+        width: 600px;
+    }
+
+    .teamlogo {
+        position: relative;
+        top: 150px;
+        left: 300px;
+    }
+
+    .karmalogo {
+        position: relative;
+        top: 150px;
+        left: 300px;
+    }
+
+    .supervisorlogo {
+        position: relative;
+        top: 150px;
+        left: 300px;
+    }
+
+    .calculatorlogo {
+        position: relative;
+        top: 150px;
+        left: 300px;
+    }
+
+
+}
